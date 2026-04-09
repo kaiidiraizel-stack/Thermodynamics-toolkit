@@ -1,10 +1,10 @@
-# Thermodynamics Python Toolkit 🌡️
+# Thermodynamics Python Toolkit 
 
 A versatile computational physics suite designed to simulate and visualize fundamental thermodynamic principles. This toolkit allows users to explore heat conduction through solids and the statistical nature of entropy increase in gas expansion.
 
 ---
 
-## 🚀 Features
+## Features
 
 ### 1. 2D Heat Diffusion (Macroscopic)
 Models how thermal energy moves through a solid material using **Fourier's Law of Conduction**.
@@ -20,7 +20,7 @@ Demonstrates the **Second Law of Thermodynamics** and the statistical transition
 
 ---
 
-## 🛠️ Installation
+## Installation
 
 Ensure you have Python 3.x installed. You will need `NumPy` for the matrix calculations and `Matplotlib` for the visualizations.
 
@@ -30,7 +30,7 @@ pip install numpy matplotlib
 
 ---
 
-## 📖 How to Use
+## How to Use
 
 1.  **Run the Script:**
     ```bash
@@ -43,7 +43,7 @@ pip install numpy matplotlib
 
 ---
 
-## 🧬 Underlying Theory
+## Underlying Theory
 
 ### The Heat Equation
 The movement of heat is calculated by looking at the "curvature" of temperature at every point on a grid:
@@ -55,7 +55,7 @@ $$S = -k_B \sum p_i \ln p_i$$
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 * `get_input()`: A robust helper function that handles user interactions and provides defaults.
 * `run_heat_diffusion()`: Contains the vectorized NumPy logic for thermal conduction.
